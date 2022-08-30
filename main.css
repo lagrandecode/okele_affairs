@@ -2,11 +2,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
 
 
+/* declaring all the colors */
+
+:root{
+    --green: #27ae60;
+    --black: #192a56;
+    --purple: #4831D4;
+    --light-color: #666;
+    --blue: #4831D4;
+    --box-shadow: 0 .5rem   1.5rem rgba(0,0,0,.1);
+ }
+
+
+
 *{
+    font-family: 'Aboreto', cursive;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    
+    transition: all .2s linear;
 }
 
 .logo{
     text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+span{
+    color: red;
+    font-weight: bold;
 }
