@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
 
 /* declaring all the colors */
@@ -14,9 +14,18 @@
  }
 
 
+ html{
+    font-size: 65.5%;
+    overflow-x: 12px;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+    
+}
+
+
 
 *{
-    font-family: 'Aboreto', cursive;
+    font-family: 'Roboto Slab', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,10 +39,10 @@
 .logo{
     text-decoration: none;
     font-size: 25px;
-    color: blue;
+    color: var(--blue);
     font-weight: bold;
 }
 span{
-    color: red;
+    color: var(--green);
     font-weight: bold;
 }
