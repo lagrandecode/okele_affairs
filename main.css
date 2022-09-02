@@ -36,12 +36,14 @@
 }
 
 .logo{
+    font-family: 'Tangerine', serif;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: var(--blue);
     font-weight: bold;
 }
-span{
-    color: var(--green);
-    font-weight: bold;
+
+.logospan{
+    font-family: 'Tangerine', serif;
+    color: red;
 }
