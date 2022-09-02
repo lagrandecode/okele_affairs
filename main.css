@@ -45,5 +45,5 @@
 
 .logospan{
     font-family: 'Tangerine', serif;
-    color: red;
+    color: var(--green);
 }
