@@ -1,7 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
-
-
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 /* declaring all the colors */
 
 :root{
@@ -15,6 +13,7 @@
 
 
  html{
+    font-family: 'Aboreto', cursive;
     font-size: 65.5%;
     overflow-x: 12px;
     scroll-padding-top: 5.5rem;
