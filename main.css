@@ -47,3 +47,17 @@
     font-family: 'Tangerine', serif;
     color: var(--green);
 }
+
+
+/* designing the nav bar */
+
+header{
+    top: 0; right: 0; left: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);  
+}
