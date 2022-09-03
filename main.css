@@ -24,7 +24,7 @@
 
 
 section{
-    padding-top: 8rem;
+    padding: 2rem;
 }
 
 
@@ -110,3 +110,6 @@ header .navbar :hover{
 }
 
 
+.images{
+    width: 100%;
+}
