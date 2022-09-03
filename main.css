@@ -22,6 +22,11 @@
 }
 
 
+section{
+    padding: 2rem;
+}
+
+
 
 *{
     font-family: 'Anek Telugu', sans-serif;
@@ -95,5 +100,8 @@ header .navbar :hover{
     padding: 10px;
     text-align: center;
     background-color: var(--light-color);
-
 }
+
+
+
+
