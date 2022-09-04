@@ -107,12 +107,7 @@ header .navbar :hover{
     background-color: var(--light-color);
 }
 
-.home-slide{
-    display: flex;
-    align-items: center;
-    margin-top: 3rem;
-    background-color: var(--deepblue);
-}
+
 
 .title-head{
     font-weight: 800;
@@ -154,11 +149,7 @@ header .navbar :hover{
     background-color: var(--red);
 }
 
-.slide{
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-}
+
 
 .images{
     align-items: center;
@@ -181,14 +172,23 @@ header .navbar :hover{
 .slide{
     display: flex;
     align-items: center;
-    gap: 2rem; 
+    gap: 8rem;
+    
 }
 
-.home-container{
+
+
+.swiper mySwiper home-container{
     display: flex;
     flex-wrap: wrap;
-}
 
+}
+.home-slide{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: var(--deepblue);
+}
 
 
 
