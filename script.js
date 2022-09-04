@@ -8,7 +8,6 @@ x.onclick = () => {
     y.classList.toggle('open'); 
 }
 
-
 var swiper = new Swiper(".home-container", {
     spaceBetween: 30,
     centeredSlides: true,
@@ -22,4 +21,5 @@ var swiper = new Swiper(".home-container", {
     },
     loop:true,
   });
+
 

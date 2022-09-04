@@ -109,6 +109,7 @@ header .navbar :hover{
 
 .home-slide{
     display: flex;
+    align-items: center;
     margin-top: 3rem;
     background-color: var(--deepblue);
 }
@@ -177,11 +178,21 @@ header .navbar :hover{
     flex: 1 1 45rem;
 }
 
+.slide{
+    display: flex;
+    align-items: center;
+    gap: 2rem; 
+}
+
 .home-container{
     display: flex;
     flex-wrap: wrap;
-    background-color: #27ae60;
 }
+
+
+
+
+
 
 
 
