@@ -169,6 +169,19 @@ header .navbar :hover{
 
 
 
+.swiper-wrapper wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    flex: 1 1 45rem;
+}
+
+.home-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #27ae60;
+}
 
 
 
