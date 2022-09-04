@@ -105,17 +105,3 @@ header .navbar :hover{
 
 
 
-.images{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-.title{
-    position: absolute;
-    font-size: 32px;
-    color: black;
-    right: 10;
-}
-
